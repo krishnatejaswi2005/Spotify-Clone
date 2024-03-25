@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+}
+nav ul {
+	list-style: none;
+	display: flex;
+	color: white;
+	align-items: center;
+	padding: 5px;
+	font-weight: 100;
+}
+nav {
+	background-color: #212121;
+}
+.logo img {
+	height: 42px;
+	width: 60px;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	font-size: large;
+}
+body {
+	background-color: #b3b3b3;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+nav ul li {
+	margin-left: 10px;
+}
+.player {
+	position: fixed; /* Fix the player to the bottom */
+	bottom: 2px;
+	left: 5%;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #212121;
+	color: white;
+	border-radius: 10px;
+}
+.player input {
+	margin: 15px;
+	width: 80%;
+	background-color: green;
+}
+
+.controls i {
+	font-size: x-large;
+	margin: 5px;
+}
+.container {
+	background-color: #1a1a1a;
+	color: #ffffff;
+	min-height: 75vh;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	margin: 20px auto;
+	border-radius: 10px;
+	background-image: url("./assets/bg\ image.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+	flex-direction: column;
+}
+.container h2 {
+	text-align: center;
+}
+.songlist {
+	text-align: center;
+	position: absolute;
+	top: 10%;
+	width: 35%;
+	margin: 30px;
+}
+.songItem {
+	display: flex;
+	height: 50px;
+	background-color: white;
+	color: black;
+	margin: 19px 10px;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 30px;
+	font-size: large;
+	cursor: pointer;
+}
+.songItem img {
+	width: 43px;
+	border-radius: 100%;
+	margin-left: 5px;
+}
+.songlistplay {
+	margin-right: 10px;
+}
+
+.songName {
+	font-weight: bold;
+}
+.player input,
+i {
+	cursor: pointer;
+}
+#songInfo {
+	position: absolute;
+	left: 9rem;
+	margin-top: 10px;
+}

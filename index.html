@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Spotify</title>
+		<!-- <link rel="icon" href="data:," type="image/x-icon" /> -->
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li class="logo"><img src="/Assets/logo.png" alt="logo" />Spotify</li>
+				<li>Home</li>
+				<li>About</li>
+			</ul>
+		</nav>
+		<div class="container">
+			<div class="songlist">
+				<h2>Popular Arijit Singh Songs</h2>
+				<div class="songItem" id="1">
+					<img src="/Assets/song1.jpg" alt="song1" />
+					<span class="songName">Chaleya</span>
+					<span class="songlistplay"
+						><span class="timestamp"
+							>03:08
+							<i id="0" class="far songItemPlay fa-play-circle"></i></span
+					></span>
+				</div>
+				<div class="songItem" id="2">
+					<img src="/Assets/song2.jpg" alt="song2" />
+					<span class="songName">Bandeya Re Bandeya</span>
+					<span class="songlistplay"
+						><span class="timestamp"
+							>04:35
+							<i id="0" class="far songItemPlay fa-play-circle"></i></span
+					></span>
+				</div>
+				<div class="songItem" id="3">
+					<img src="/Assets/song3.jpg" alt="song3" />
+					<span class="songName">Jhoome Jo Pathaan</span>
+					<span class="songlistplay"
+						><span class="timestamp"
+							>03:22
+							<i id="0" class="far songItemPlay fa-play-circle"></i></span
+					></span>
+				</div>
+				<div class="songItem" id="4">
+					<img src="/Assets/song4.jpg" alt="song4" />
+					<span class="songName">Sooraj Dooba Hain</span>
+					<span class="songlistplay"
+						><span class="timestamp"
+							>04:24
+							<i id="0" class="far songItemPlay fa-play-circle"></i></span
+					></span>
+				</div>
+				<div class="songItem" id="5">
+					<img src="/Assets/song5.jpg" alt="song5" />
+					<span class="songName">Main Tera Boyfriend</span>
+					<span class="songlistplay"
+						><span class="timestamp"
+							>04:36
+							<i id="0" class="far songItemPlay fa-play-circle"></i></span
+					></span>
+				</div>
+				<div class="songItem" id="6">
+					<img src="/Assets/song6.jpg" alt="song6" />
+					<span class="songName">Lehra Do</span>
+					<span class="songlistplay"
+						><span class="timestamp"
+							>03:49
+							<i id="0" class="far songItemPlay fa-play-circle"></i></span
+					></span>
+				</div>
+			</div>
+		</div>
+		<div class="player">
+			<input
+				type="range"
+				name="range"
+				id="scroll"
+				min="0"
+				value="0"
+				max="100"
+			/>
+			<div class="controls">
+				<i class="fa-solid fa-backward-step" id="previous"></i>
+				<i class="fa-solid fa-play" id="masterPlay"></i>
+				<i class="fa-solid fa-forward-step" id="forward"></i>
+			</div>
+			<div id="songInfo">Chaleya</div>
+		</div>
+		<script
+			src="https://kit.fontawesome.com/fc46c0c318.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="script.js"></script>
+	</body>
+</html>
