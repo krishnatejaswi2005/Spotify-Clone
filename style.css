@@ -65,7 +65,7 @@ nav ul li {
 	justify-content: center;
 	margin: 20px auto;
 	border-radius: 10px;
-	background-image: url("bg\ image.jpg");
+	background-image: url("./assets/bg\ image.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: left;
