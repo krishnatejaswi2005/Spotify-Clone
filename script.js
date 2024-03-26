@@ -1,4 +1,4 @@
-let audioElement = new Audio("/Assets/music1.mp3");
+let audioElement = new Audio("Assets/music1.mp3");
 let masterPlay = document.getElementById("masterPlay");
 let previous = document.getElementById("previous");
 let forward = document.getElementById("forward");
@@ -8,33 +8,33 @@ let idx = 0;
 let songs = [
 	{
 		songName: "Chaleya",
-		filePath: "/Assets/music1.mp3",
-		coverPath: "/Assets/song1.jpg",
+		filePath: "Assets/music1.mp3",
+		
 	},
 	{
 		songName: "Bandeya Re Bandeya",
-		filePath: "/Assets/music2.mp3",
-		coverPath: "/Assets/song2.jpg",
+		filePath: "Assets/music2.mp3",
+		
 	},
 	{
 		songName: "Jhoome Jo Pathaan",
-		filePath: "/Assets/music3.mp3",
-		coverPath: "/Assets/song3.jpg",
+		filePath: "Assets/music3.mp3",
+		
 	},
 	{
 		songName: "Sooraj Dooba Hain",
-		filePath: "/Assets/music4.mp3",
-		coverPath: "/Assets/song4.jpg",
+		filePath: "Assets/music4.mp3",
+		
 	},
 	{
 		songName: "Main Tera Boyfriend",
-		filePath: "/Assets/music5.mp3",
-		coverPath: "/Assets/song5.jpg",
+		filePath: "Assets/music5.mp3",
+		
 	},
 	{
 		songName: "Lehra Do",
-		filePath: "/Assets/music6.mp3",
-		coverPath: "/Assets/song6.jpg",
+		filePath: "Assets/music6.mp3",
+		
 	},
 ];
 masterPlay.addEventListener("click", () => {
